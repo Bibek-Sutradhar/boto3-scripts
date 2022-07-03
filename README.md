@@ -6,6 +6,7 @@
 pip install boto3
 
 
+
 yum install gcc openssl-devel bzip2-devel libffi-devel
 cd /usr/src
 wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
