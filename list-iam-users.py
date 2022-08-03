@@ -2,6 +2,7 @@ import boto3
 iam = boto3.client('iam')
 #ec2 = boto3.client('ec2')
 
+
 #vpcid = ec2.Vpc('id')
 #print(vpcid)
 
