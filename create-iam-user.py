@@ -1,5 +1,6 @@
 import boto3
 
+
 iam = boto3.client('iam')
 
 created_user = iam.create_user(
