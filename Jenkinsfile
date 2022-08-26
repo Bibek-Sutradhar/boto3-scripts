@@ -5,6 +5,15 @@ pipeline {
     githubPush()
   }
     stages {
+
+	stage ("Init") {
+	   steps {
+	   git branch: 'master',
+	   url: 'https://github.com/Bibek-Sutradhar/boto3-scripts.git'
+	   echo 'Success'
+	}
+	
+    }
         
         stage ("Build") {
             steps {
